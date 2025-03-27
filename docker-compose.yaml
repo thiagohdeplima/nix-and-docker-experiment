@@ -1,6 +1,5 @@
 services:
-  nixos:
+  server:
     build: .
-    command: sleep infinity
-    volumes:
-    - .:/usr/local/src
+    ports:
+    - 8000:8000
