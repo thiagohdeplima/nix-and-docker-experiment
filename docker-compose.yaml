@@ -1,0 +1,6 @@
+services:
+  nixos:
+    build: .
+    command: sleep infinity
+    volumes:
+    - .:/usr/local/src
