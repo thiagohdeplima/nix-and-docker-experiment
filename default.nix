@@ -25,7 +25,6 @@ pkgs.stdenv.mkDerivation {
     chmod +x $out/startup;
 
     cd $out;
-    poetry 
     poetry install;
   '';
 }
